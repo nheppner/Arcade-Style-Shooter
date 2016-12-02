@@ -53,15 +53,12 @@ window.onload = function() {
     // Create the canvas
     var mainContainer = document.querySelector('main');
     var canvas = document.createElement("canvas");
-    var infoContainer = document.querySelector('div.info');
     var ctx = canvas.getContext("2d");
     var initialCanvasWidth = canvas.width = 320;
     var initialCanvasHeight = canvas.height = 480;
     mainContainer.appendChild(canvas);
 
-    infoContainer.addEventListener('click', function(ev) {
-        infoContainer.classList.add('hidden');
-    });
+    
     // The player's state
     var player = {
         x: 0,
