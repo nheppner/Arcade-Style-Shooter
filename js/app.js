@@ -63,8 +63,8 @@ window.onload = function() {
     var player = {
         x: 0,
         y: 0,
-        sizeX: 30,
-        sizeY: 30
+        sizeX: 8,
+        sizeY: 8
     };
 
     // Don't run the game when the tab isn't visible
